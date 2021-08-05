@@ -1,0 +1,20 @@
+{
+  "name": "examenu2",
+  "version": "1.0.0",
+  "description": "Examen con servidor web",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "examen",
+    "web"
+  ],
+  "author": "ESPE Software",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  }
+}

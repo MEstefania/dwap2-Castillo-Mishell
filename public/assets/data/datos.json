@@ -1,0 +1,22 @@
+[
+	{ "nombre" : "Samsung Galaxi S20", 
+	"precio" : 640.00,
+	"imagen" : "https://images.samsung.com/is/image/samsung/latin-galaxy-s20-plus-g985-bts-sm-g985fzpjgto-frontbpurple-thumb-261222598"
+    },
+    {"nombre" : "Huawei Pro P30", 
+     "precio" : 310.00,
+     "imagen" : "https://storephone.com.ec/wp-content/uploads/2019/10/HUAWEI-P30-PRO.jpg"
+    },
+    {"nombre" : "Earphones Tuned", 
+     "precio" : 5.00,
+     "imagen" : "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/400x400/https/bdt.computerhoy.com/sites/default/files/cascos.png?itok=UdxesOAJ"
+    },  
+    {"nombre" : "Cámara Web 2.3S", 
+    "precio" : 165.00,
+    "imagen" : "https://www.tventas.com/7563415-home_default/camara-web-neodiiler.jpg"
+    },
+    {"nombre" : "Mouse Gamer G503", 
+    "precio" : 98.00,
+    "imagen" : "https://compunixec.com/wp-content/uploads/2020/06/71O23Hqq3jL._AC_SL1500_.jpg"
+    }
+]

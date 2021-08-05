@@ -1,0 +1,199 @@
+
+body{
+    margin: 0px auto;
+}
+h2{
+    font-family: 'Satisfy', cursive;
+}
+h1{
+    font-family: 'Special Elite', cursive;
+}
+.Encabezado{
+    background-image: url("https://umad.edu.mx/wp-content/uploads/2018/04/tecnologi%CC%81a.jpg");
+    padding: 5%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position:initial;
+    background-size: cover;
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+    align-content:flex-end;
+    justify-content:flex-end;  
+}
+.Encabezado>ul> li>h4{
+    text-align: center;
+    font-family: 'Srisakdi', cursive;
+    font-size: 2em;
+    color:#ffc6ff;
+    font-weight: bold;
+}
+.Encabezado>ul >li{
+    list-style: none; 
+}
+li>h2{
+    font-family: 'Fredoka One', cursive;
+    color:#ffc6ff;
+    font-size: 2.5em;
+    text-align: center;
+}
+button{
+    padding: 1em 2em;
+    border-style: double;
+    transition: transform 0.25s,box-shadow 0.25s;
+}
+button:hover{
+    color: greenyellow;
+    border: 5px greenyellow ;
+    border-style: double;
+    box-shadow: 0 0.5em 0.5em -0.15em #feeafa ;
+    transform: translateY(-0.3em); 
+}
+
+.Descripcion, .Productos{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.Descripcion>img{
+    margin-bottom: 10%;
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 70%;
+    height: 70%;
+    border: 0.3em solid darkblue;
+    border-radius: 4%;
+}
+.Descripcion>article{
+    margin: 4%;
+    margin-left: 5%;
+    width: 70%;
+    text-align: justify;
+}
+header>h2{
+    font-size: 2.2em;
+    color: #48cae4;
+}
+header>h1{
+    font-size: 2.5em;
+}
+
+.Productos{
+    background-image: linear-gradient(to right top,rgb(11, 9, 78),darkblue,#0077b6,#dee2e6);
+    color: white;
+}
+.Productos>article{
+    margin: 4%;
+    margin-left: 15%;
+}
+p{
+    font-family: 'Cormorant', serif;
+    font-size: 1.5em;
+}
+.productos_presentacion{
+    margin: 4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div>p{
+    width: 90%;
+}
+div>img{
+    width: 230px;
+    height: 230px;
+    /*flex-grow: 1;*/
+}
+#precio{
+    color: #48cae4;
+}
+#articulo{
+    font-size: 1.5em;
+    font-family: 'Indie Flower', cursive;
+}
+aside>ul>li{
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Special Elite', cursive;
+}
+#direccion{
+    list-style-image: url("../imagenes/direccion.png") ;
+}
+#email{
+    list-style-image: url("../imagenes/email.png");
+}
+#telefono{
+    list-style-image: url("../imagenes/telefono.png");
+}
+footer{
+    padding: 0.5%;
+    background-image: linear-gradient(to right top,rgb(11, 9, 78),darkblue,#0077b6,#dee2e6);
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+}
+footer h4{
+    font-family: 'Special Elite', cursive;
+    font-size: 1.5em;
+}
+footer p{ 
+    display: inline-block;
+}
+#frase{
+    font-family: 'Srisakdi', cursive;
+}
+#autor{
+    font-family: 'Cormorant', serif;
+}
+@media (max-width: 880px){
+    .Descripcion>img{
+        margin: 5%;
+        width: 85%;
+        height: 85%;
+    } 
+    header>h1{
+        font-size: 1.5em;
+    }  
+    p{
+        font-size: 1.2em;
+    }
+    li>h2{
+        font-size: 2.6em;
+    }
+}
+@media (max-width: 650px){
+    .Productos{
+        display: flex;
+        flex-direction: column;
+    }
+    .Descripcion{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Descripcion>article{
+        padding:0 5%;
+    }
+    li>h2{
+        font-size: 2.2em;
+    }
+    li>img{
+        width: 80%;
+        height: auto;
+        flex-grow: 1;
+    }
+    
+}
+@media (max-width: 415px){
+    li>h2{
+        font-size: 1.8em;
+    }
+    
+    .Encabezado>ul> li>h4{
+        font-size: 0.8em;
+    }
+    button{
+        padding: 1em 2em;
+        font-size: 0.5em;
+    }
+}
