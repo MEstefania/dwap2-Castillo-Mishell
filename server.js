@@ -16,7 +16,6 @@ hbs.registerPartials(__dirname+'/views/partials');
 //Donde cargar los archivos estaticos
 app.use(express.static('public'));
 
-
 //Donde llamo a index
 app.get('/',(req,res)=>{
     res.render('index');
